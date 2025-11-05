@@ -1,15 +1,15 @@
-.development{
+.development {
   text-align:center;
   position:relative;
   top:100px;
   background-color:#AA0000;
 }
-.centered-subtitle{
+.centered-subtitle {
   text-align:center;
   position:relative;
   top:-20px;
   font-size:10px;
 }
-.centered-title{
+.centered-title {
   text-align:center;
 }
