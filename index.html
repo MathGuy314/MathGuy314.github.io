@@ -21,17 +21,46 @@ footer {
 #center{
     text-align: center;
 }
+body header nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #28bd91;
+}
+body header nav ul li {
+  float: left;
+}
+body header nav ul li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+body header nav ul li a:hover{
+      background-color: #145945;
+}
+body header h1{
+    position: relative;
+    top: 9px;
+}
     </style>
 </head>
 <body>
     <header>
         <h1>Crazy Math</h1>
+        <nav>
+        <ul>
+            <li><a href="https://mathguy314.github.io/">Home</a></li>
+            <li><a href="https://mathguy314.github.io/calculators">Calculators</a></li>
+        </ul>
+    </nav>
     </header>
     <main>
     <div class="development">
         <h3><span style="background-color: #ff483b;">This site is under development.</span></h3>
     </div>
-    <a href="/calculators", id="center">Our Calculators (test) Site</a>
     </main>
     <footer>
         <h2>By MathGuy314 on Github</h2>
